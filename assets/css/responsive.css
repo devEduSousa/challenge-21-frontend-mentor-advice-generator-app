@@ -1,0 +1,54 @@
+@media(min-width: 375px) {
+    #container .advice-id {
+        font-size: 12px;
+    }
+
+    #container .advice {
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 425px) {
+    #container .advice-id {
+        font-size: 16px;
+    }
+
+    #container .advice {
+        font-size: 28px;
+    }
+
+    #container .line-img {
+        height: 25px;
+    }
+}
+
+@media(min-width: 768px) {
+    #container {
+        max-width: 600px;
+        padding: 40px 65px 0;
+        gap: 40px;
+    }
+
+    #container .line-img {
+        height: 20px;
+        background-image: url("../images/pattern-divider-desktop.svg");
+        margin-bottom: 80px;
+    }
+
+    #container .dice-container {
+        width: 70px;
+        height: 70px;
+        bottom: -35px;
+    }
+
+    #container .dice-container .dice {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media(min-width: 1024px) {
+    #container .dice-container:hover {
+        box-shadow: 0px 0px 80px hsla(150, 100%, 66%, .5);
+    }
+}

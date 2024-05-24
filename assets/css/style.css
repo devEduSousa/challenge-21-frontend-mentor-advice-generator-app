@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+#container {
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: hsl(217, 19%, 24%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+}
+
+#container .advice-id {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 8px;
+}
+
+#container .advice {
+    font-size: 18px;
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+}
+
+#container .line-img {
+    background-image: url("../images/pattern-divider-mobile.svg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+    height: 20px;
+}
+
+#container .dice-container {
+    width: 60px;
+    height: 60px;
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: box-shadow .3s;
+}
+
+#container .dice-container .dice {
+    background-image: url("../images/icon-dice.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+}
